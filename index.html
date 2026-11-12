@@ -45,10 +45,11 @@
           We have millions of titles for you to explore. Find your next watch
           here!
         </p>
-        <div class="row">
+        <div class="input__wrapper">
           <input class="search__input" placeholder="Search for a movie..." />
-          <button class="btn search">
-            <i class="fa-solid fa-magnifying-glass"></i>
+          <button id="searchButton" onclick="startSearch()" class="btn__search">
+            <i id="searchIcon" class="fa-solid fa-magnifying-glass search__icon"></i>
+            <i id="spinner" class="fa-solid fa-spinner fa-spin"></i>
           </button>
         </div>
       </div>
